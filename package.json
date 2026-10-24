@@ -1,0 +1,19 @@
+{
+  "name": "smartware-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SmartWare — Full-Stack E-Commerce & Smart Warehouse Fulfillment Platform",
+  "scripts": {
+    "dev": "npm run dev:client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:server": "npm run build --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build": "npm run build:server && npm run build:client",
+    "test:server": "npm run test --prefix server",
+    "db:push": "npm run db:push --prefix server",
+    "db:seed": "npm run db:seed --prefix server",
+    "start:server": "npm start --prefix server",
+    "preview:client": "npm run preview --prefix client"
+  }
+}
